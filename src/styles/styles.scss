@@ -1,0 +1,25 @@
+// Configiguration
+@import "config/reset";
+@import "config/fonts";
+@import "config/base";
+// Import node_modules
+// @import '../../node_modules/simplebar/dist/simplebar.min.css';
+// @import '../../node_modules/nouislider/dist/nouislider.css';
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+
+// User import
+// @import "libs/simplebar";
+// @import "libs/effects";
+
+// Components
+@import "sections/background";
+@import "sections/header";
+@import "sections/main";
+@import "sections/whom";
+@import "sections/course";
+@import "sections/reviews";
+@import "sections/start";
+@import "sections/footer";
+@import "sections/popup";
+
+

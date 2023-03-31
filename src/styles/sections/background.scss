@@ -1,0 +1,346 @@
+.main-bg {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 0;
+
+    &-1 {
+        position: absolute;
+        top: 1500px;
+        left: -774px;
+        border-radius: 50%;
+        width: 2115px;
+        height: 2747px;
+        background-color: $jaggle_ice;
+        filter: blur(250px);
+        z-index: 10;
+
+        @media (max-width: 665px) {
+            left: unset;
+            right: -60px;
+            width: 1255px;
+            height: 1630px;
+        }
+    }
+
+    &-2 {
+        position: absolute;
+        top: 822px;
+        left: 803px;
+        border-radius: 50%;
+        width: 1506px;
+        height: 1259px;
+        background-color: $aqua_island;
+        filter: blur(250px);
+        z-index: 9;
+        
+        @media (max-width: 665px) {
+            top: 440px;
+            left: unset;
+            right: -630px;
+            width: 895px;
+            height: 750px;
+        }
+    }
+    
+    &-3 {
+        position: absolute;
+        top: 480px;
+        left: -862px;
+        border-radius: 50%;
+        width: 1412px;
+        height: 1180px;
+        background-color: $white;
+        filter: blur(250px);
+        opacity: .5;
+        z-index: 8;
+    }
+
+    &-4 {
+        position: absolute;
+        top: 480px;
+        left: -373px;
+        width: 770px;
+        height: 770px;
+        background-image: url('#{$url}/img/dist/bg/Star-1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 7;
+
+        @media (max-width: 665px) {
+            top: 700px;
+            left: -335px;
+            width: 550px;
+            height: 550px;
+        }
+    }
+
+    &-5 {
+        position: absolute;
+        top: 570px;
+        left: -156px;
+        border-radius: 50%;
+        width: 1412px;
+        height: 1180px;
+        background-color: $ziggurat;
+        filter: blur(250px);
+        z-index: 6;
+
+        @media (max-width: 665px) {
+            top: 290px;
+            left: unset;
+            right: -455px;
+            width: 840px;
+            height: 700px;
+            z-index: 3;
+        }
+    }
+    
+    &-6 {
+        position: absolute;
+        top: -590px;
+        left: -356px;
+        border-radius: 50%;
+        width: 1506px;
+        height: 1259px;
+        background-color: $aqua_haze;
+        filter: blur(150px);
+        z-index: 4;
+
+        @media (max-width: 1199px) {
+            top: -890px;
+            left: -700px;
+        }
+
+        @media (max-width: 665px) {
+            top: -310px;
+            left: -555px;
+            width: 895px;
+            height: 750px;
+        }
+    }
+
+    &-7 {
+        position: absolute;
+        top: 420px;
+        right: -225px;
+        font-size: 432px;
+        line-height: 345px;
+        @extend %font-700;
+        color: $ziggurat_2;
+        transform: rotate(-90deg);
+        z-index: 4;
+
+        @media (max-width: 1199px) {
+            top: 300px;
+            right: -240px;
+            font-size: 350px;
+            line-height: 300px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 300px;
+            line-height: 250px;
+        }
+
+        @media (max-width: 665px) {
+            top: 225px;
+            right: -180px;
+            font-size: 256px;
+            line-height: 205px;
+        }
+    }
+
+    &-8 {
+        position: absolute;
+        top: 500px;
+        right: -157px;
+        border-radius: 50%;
+        width: 506px;
+        height: 1259px;
+        background-color: $bay_of_many;
+        filter: blur(150px);
+        z-index: 3;
+
+        @media (max-width: 665px) {
+           top: 250px;
+           right: -690px;
+           width: 895px;
+           height: 750px; 
+        }
+    }
+
+    &-9 {
+        position: absolute;
+        top: 410px;
+        right: -208px;
+        width: 930px;
+        height: 930px;
+        background-image: url('#{$url}/img/dist/bg/Star-2.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+
+        @media (max-width: 665px) {
+            top: 200px;
+            left: unset;
+            right: -240px;
+            width: 550px;
+            height: 550px;
+        }
+    }
+
+    &-10 {
+        position: absolute;
+        top: -590px;
+        left: 666px;
+        border-radius: 50%;
+        width: 1506px;
+        height: 1259px;
+        background-color: $downy;
+        filter: blur(150px);
+        z-index: 1;
+
+        @media (max-width: 665px) {
+            top: -310px;
+            left: unset;
+            right: -555px;
+            width: 895px;
+            height: 750px;
+        }
+    }
+    
+    &-11 {
+        position: absolute;
+        right: -860px;
+        bottom: 260px;
+        border-radius: 50%;
+        width: 1412px;
+        height: 1181px;
+        background-color: $white;
+        filter: blur(250px);
+        opacity: .5;
+        z-index: 17;
+
+        @media (max-width: 665px) {
+            left: 0;
+            right: unset;
+            bottom: 770px;
+        }
+    }
+
+    &-12 {
+        position: absolute;
+        right: -370px;
+        bottom: 160px;
+        width: 770px;
+        height: 770px;
+        background-image: url('#{$url}/img/dist/bg/Star-3.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 16;
+
+        @media (max-width: 665px) {
+            right: -540px;
+            bottom: 555px;
+        }
+    }
+
+    &-13 {
+        position: absolute;
+        right: -155px;
+        bottom: 345px;
+        border-radius: 50%;
+        width: 1412px;
+        height: 1181px;
+        background-color: $ziggurat;
+        filter: blur(250px);
+        z-index: 15;
+
+        @media (max-width: 665px) {
+            right: -320px;
+            bottom: 860px;
+        }
+    }
+
+    &-14 {
+        position: absolute;
+        right: -355px;
+        bottom: 590px;
+        border-radius: 50%;
+        width: 1506px;
+        height: 1259px;
+        background-color: $aqua_haze;
+        filter: blur(150px);
+        z-index: 14;
+
+        @media (max-width: 665px) {
+            right: -520px;
+            bottom: 155px;
+        }
+    }
+    
+    &-15 {
+        position: absolute;
+        right: 240px;
+        bottom: 370px;
+        border-radius: 50%;
+        width: 2356px;
+        height: 1969px;
+        background-color: $iceberg;
+        filter: blur(150px);
+        z-index: 13;
+
+        @media (max-width: 665px) {
+            right: 80px;
+            bottom: 880px;
+        }
+    }
+
+    &-16 {
+        position: absolute;
+        left: -208px;
+        bottom: 160px;
+        width: 928px;
+        height: 928px;
+        background-image: url('#{$url}/img/dist/bg/Star-4.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 12;
+
+        @media (max-width: 665px) {
+            display: none;
+        }
+    }
+
+    &-17 {
+        position: absolute;
+        left: -730px;
+        bottom: 70px;
+        border-radius: 50%;
+        width: 1506px;
+        height: 359px;
+        background-color: $downy;
+        filter: blur(150px);
+        z-index: 11;
+
+        @media (max-width: 665px) {
+            left: unset;
+            right: 60px;
+            bottom: 0;
+        }
+    }
+
+    &-18 {
+        position: absolute;
+        top: 1250px;
+        left: 50px;
+        width: 928px;
+        height: 928px;
+        background-image: url('#{$url}/img/dist/bg/Star-5.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 8;
+    }
+}
